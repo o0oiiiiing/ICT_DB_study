@@ -29,7 +29,7 @@ begin
     return myprice;
 end;
 
-drop funtion fnc_interest;
+drop function fnc_interest;
 
 -- 실행 : 일반 SQL문에서 호출 가능
 select o.*, fnc_interest(o.saleprice) as 순이익
